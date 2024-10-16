@@ -104,7 +104,7 @@ function App() {
   };
 
   useEffect(() => {
-    const newSocket = io("http://localhost:5000", {
+    const newSocket = io("https://linkbridge-socket.onrender.com", {
       transports: ["websocket"],
     });
     setSocket(newSocket);
