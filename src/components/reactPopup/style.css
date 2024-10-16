@@ -1,0 +1,161 @@
+.blur_react {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.768);
+  bottom: 0;
+  z-index: 9999999;
+}
+
+
+.react_menu_active {
+  height: 50px !important;
+  width: 60px !important;
+  margin: 0 !important;
+  color: var(--blue-color) !important;
+  border-bottom: 3px solid var(--blue-color);
+  border-radius: 0 !important;
+}
+
+.tab_menu_react a {
+  height: 54px;
+  width: 60px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin: 3px 0;
+
+}
+
+.react_menu {
+  /* position: relative; */
+  position: absolute;
+  display: flex;
+
+
+}
+
+.tab_menu_react img {
+  width: 18px;
+}
+
+.box_react_header {
+
+  position: relative;
+  display: flex;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.postBoxReact {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--bg-primary);
+  box-shadow: 0 12px 28px 0 var(--shadow-1), 0 2px 4px 0 var(--shadow-2),
+    inset 0 0 0 1px var(--shadow-inset);
+  min-height: 228px;
+  width: 500px;
+  border-radius: 5px;
+}
+
+.postBoxReact .small_circle {
+  position: absolute;
+  right: 16px;
+  top: 12px;
+}
+
+.tab_menu_react p {
+  padding-left: 5px;
+}
+
+
+@media (max-width: 550px) {
+  .postBoxReact {
+    width: 96%;
+  }
+}
+
+
+.box_react {
+  position: absolute;
+  overflow-y: scroll;
+  display: flex;
+  gap: 12px;
+  margin-top: 50px;
+  padding: 17px 17px 5px 17px;
+  height: 170px;
+  width: 500px;
+}
+
+.box_react .box_react_img {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user_react {
+  display: flex;
+
+  margin-bottom: 10px;
+
+  width: 450px;
+}
+
+
+.user_react img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px var(--shadow-1);
+}
+
+.uses_react_left {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  margin-bottom: 10px;
+
+  flex: 5;
+}
+
+.btn_add_friend_react {
+  flex: 1;
+  font-size: 14px;
+  font-weight: 580;
+  color: #1168D2;
+  background-color: #EBF5FF;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  align-items: center;
+  /* Căn nội dung theo chiều dọc */
+  justify-content: center;
+  /* Căn nội dung theo chiều ngang */
+  height: 50px;
+
+  position: relative;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.btn_add_friend_react p {
+  padding-left: 8px;
+  padding-right: 8px;
+
+}
+
+.center_react{
+  margin-left: 10px;
+}

@@ -1,0 +1,515 @@
+.friends {
+  height: calc(100vh - 56px);
+  width: 100%;
+  margin-top: 56px;
+  display: grid;
+  color: var(--color-primary);
+}
+
+.friends_left {
+  background: var(--bg-primary);
+  box-shadow: 0 12px 12px var(--shadow-1);
+  padding: 10px;
+  position: fixed;
+  width: 360px;
+  height: 100%;
+}
+
+.friends_right {
+  background: var(--bg-secondary);
+  padding: 2rem;
+  position: absolute;
+  top: 56px;
+  left: 360px;
+  right: 0;
+  width: calc(100% - 360px);
+  min-height: calc(100vh - 56px);
+}
+
+.friends_left_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.friends_left_header h3 {
+  font-size: 21px;
+}
+
+.friends_left .mmenu_item {
+  cursor: pointer;
+}
+
+.active_friends {
+  background: var(--bg-secondary);
+}
+
+.active_friends .small_circle {
+  background: #1876f2;
+}
+
+.active_friends i {
+  filter: invert(100%);
+}
+
+.active_friends .rArrow {
+  display: none;
+}
+
+.see_link {
+  color: var(--blue-color);
+  padding: 5px;
+  cursor: pointer;
+}
+
+.friends_right_wrap {
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--bg-third);
+}
+
+.friends_right_wrap .flex_wrap {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15px;
+}
+
+
+
+
+
+.req_card button {
+  width: 170px !important;
+}
+
+@media (max-width: 870px) {
+  .friends_left {
+    width: 100px;
+  }
+
+  .friends_right {
+    left: 100px;
+    width: calc(100% - 100px);
+  }
+
+  .friends_left .friends_left_header .small_circle {
+    display: none;
+  }
+
+  .friends_left .mmenu_item span {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .friends_left_header h3 {
+    font-size: 16px;
+  }
+
+  .see_link {
+    font-size: 12px;
+    width: 50px;
+  }
+
+  .friends_right {
+    padding: 10px;
+  }
+}
+
+
+
+.req_card_profile {
+  position: relative;
+  background: var(--bg-primary);
+  box-shadow: 1px 1px 1px 2px var(--shadow-1);
+  width: 400px;
+  height: fit-content;
+  border-radius: 10px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+
+}
+
+.req_card_profile img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  margin: 10px;
+
+}
+
+.req_profile_image {
+  float: left;
+  /* Đặt hình ảnh bên trái */
+  margin-right: 10px;
+  /* Để tạo khoảng cách giữa hình ảnh và tên */
+}
+
+.req_name {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5px;
+}
+
+.req_name_state {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5px;
+  font-size: 10px;
+  color: #87888C;
+}
+
+
+.dots_friends {
+
+  width: 35px;
+  height: 35px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+
+.friend-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.friend-card-row {
+  display: flex;
+  justify-content: space-between;
+  /* Các FriendCard sẽ cách nhau ở các bên */
+  width: 100%;
+  /* Mỗi hàng chứa 2 FriendCard */
+}
+
+
+.right {
+  position: absolute;
+  cursor: pointer;
+  right: 1rem;
+}
+
+
+.user_invite {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+}
+
+
+.user_invite span {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.req_card_group {
+  background: var(--bg-primary);
+  box-shadow: 1px 1px 1px var(--shadow-1);
+  width: 362px;
+  height: 168px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px;
+}
+
+.req_card_group img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+
+  border-radius: 10px;
+}
+
+.group_content {
+  margin: 18px;
+
+  gap: 12px;
+  place-items: center;
+}
+
+
+.content_head {
+  display: flex;
+  gap: 12px;
+  place-items: center;
+}
+
+.content_bottom {
+  display: flex;
+  gap: 12px;
+  place-items: center;
+}
+
+/*--PageGroup-------*/
+
+
+.req_card_pagegroup {
+  background: var(--bg-primary);
+  width: 362px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.req_card_pagegroup img {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.group_content_pagegroup {
+  margin: 5px;
+  gap: 12px;
+  place-items: center;
+}
+
+.content_head_pagegroup {
+  display: flex;
+  gap: 12px;
+  place-items: center;
+}
+
+.content_bottom_pagegroup {
+  display: flex;
+  gap: 12px;
+  place-items: center;
+}
+
+.friends_right_pagegroup {
+  background: var(--bg-secondary);
+  position: absolute;
+  top: 56px;
+  left: 360px;
+  right: 0;
+  width: calc(100% - 360px);
+  min-height: calc(100vh - 56px);
+}
+
+
+.pagegroup_cover {
+  position: relative;
+  height: 460px;
+  width: 1260px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background: var(--bg-secondary);
+}
+
+
+.pagegroup_top {
+  box-shadow: 0 1px 2px var(--shadow-1);
+  background: var(--bg-primary);
+}
+
+
+
+.pagegroup_grid {
+  position: relative;
+  display: flex;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 10px;
+  width: 1200px;
+}
+
+
+.pagegroup_menu_wrap {
+  position: relative;
+  padding: 0 2.2rem;
+}
+
+.pagegroup_container {
+  max-width: 1272px;
+  margin-left: 30px;
+  margin: 0 auto;
+}
+
+.pagegroup_left {
+  flex: 4;
+  position: relative;
+  ;
+}
+
+.pagegroupe_right {
+  flex: 3;
+}
+
+.pagegroupe_menu_wrap {
+  margin-left: 30px;
+  position: relative;
+  padding: 0 2.2rem;
+  gap: 10px;
+}
+
+.pagegroupe_menu {
+  position: relative;
+  border-top: 1px solid var(--border-color);
+  display: flex;
+  padding: 0;
+  gap: 10px;
+  width: 1206px;
+}
+
+
+.pagegroupe_menu a {
+  height: 54px;
+  width: 78.5px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin: 3px 0;
+  color: var(--color-secondary);
+
+}
+
+.pagegroupe_friend_imgs {
+  display: flex;
+  align-items: center;
+}
+
+.pagegroupe_friend_imgs img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px var(--shadow-1);
+}
+
+.pagegroupe_friend_imgs img:hover {
+  filter: brightness(110%);
+}
+
+
+.pagegroupe_friend_imgs {
+  transform: translateY(-10px);
+}
+
+.pagegroupe_w_col {
+  margin-left: 30px;
+  margin-top: 20px;
+
+}
+
+
+.pagegroupe_name {
+  align-items: center;
+  padding-bottom: 20px;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.pagegroupe_about_card {
+  background: var(--bg-primary);
+  border-radius: 10px;
+  box-shadow: 0 1px 2px var(--shadow-1);
+  padding: 10px 15px;
+  margin-top: 5px;
+  display: flex;
+  margin-bottom: 20px;
+  width: 1200px;
+}
+
+
+
+
+@media (max-width: 900px) {
+  .pagegroupe_name {
+    padding-bottom: 10px;
+    flex-direction: column;
+  }
+}
+
+
+
+.scrollFixed .pagegroup_left {
+
+  width: 505px;
+}
+
+.scrollFixed .pagegroupe_right {
+  width: 360px;
+}
+
+.showLess .pagegroupe_right {
+  bottom: 10px;
+}
+
+.showMore .pagegroupe_right {
+  top: 54px;
+}
+
+
+.req_card_discover_group {
+  background: var(--bg-primary);
+  box-shadow: 1px 1px 1px var(--shadow-1);
+  width: 210px;
+  height: fit-content;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.req_card_discover_group img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.req_card_discover_group button {
+  align-items: center;
+  margin-left: 14px;
+  width: 360px !important;
+}
+
+.req_name_discover_group {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 14px;
+  padding-bottom: 5px;
+}
+
+.light_btn {
+  border: none;
+  outline: none;
+  padding: 8.5px 12px;
+  border-radius: 7px;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.createChatGroup {
+  position: "absolute";
+  bottom: "100px"
+}
+
+.active_report{
+  background: #e7f3ff;
+}

@@ -1,0 +1,161 @@
+.serach {
+  /* background: var(--bg-primary);
+  border-radius: 3%; */
+}
+
+.user_serach_wrap {
+  display: flex;
+  background: var(--bg-primary);
+  margin-bottom: 10px;
+  border-radius: 10px;
+  width: 650px;
+}
+
+
+
+.group_serach {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  padding: 3px 10px 3px 6px;
+
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  margin-bottom: 10px;
+
+  flex: 5;
+}
+
+.group_serach img {
+  margin: 10px;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #b0b3b8;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+.group_serach span {
+  margin-bottom: 3px;
+}
+
+.group_serach p {
+  font-size: 14px;
+  color: #65676b;
+}
+
+.user_serach {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  padding: 3px 10px 3px 6px;
+
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  margin-bottom: 10px;
+
+  flex: 5;
+}
+
+.user_serach img {
+  margin: 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid #b0b3b8;
+  transform: translateX(-1px);
+
+}
+
+
+.user_serach span {
+  margin-bottom: 3px;
+}
+
+.user_serach p {
+  font-size: 14px;
+  color: #65676b;
+}
+
+
+.search_middle {
+
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 1175px) {
+
+  .search_middle {
+    margin-left: 5%;
+  }
+
+}
+
+@media (max-width: 1030px) {
+
+  .search_middle {
+    position: relative;
+    margin-left: 55px;
+  }
+}
+
+@media (max-width: 960px) {
+
+  .search_middle {
+    margin-left: 10%;
+  }
+
+}
+
+@media (max-width: 885px) {
+
+  .search_middle {
+    margin-left: 9%;
+  }
+}
+
+.search_right {
+  background: var(--bg-secondary);
+  padding: 2rem;
+  position: absolute;
+  top: 56px;
+  left: 360px;
+  right: 0;
+  width: calc(100% - 360px);
+  min-height: calc(100vh - 56px);
+  overflow-y: scroll;
+}
+
+.btn_add_friend_search {
+  flex: 1;
+  font-size: 14px;
+  font-weight: 580;
+  color: #1168D2;
+  background-color: #EBF5FF;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  align-items: center;
+  /* Căn nội dung theo chiều dọc */
+  justify-content: center;
+  /* Căn nội dung theo chiều ngang */
+  height: 50px;
+  margin-top: 25px;
+  position: relative;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+
+.btn_add_friend_search p {
+  padding-left: 8px;
+  padding-right: 8px;
+
+}

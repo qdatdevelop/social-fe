@@ -1,0 +1,45 @@
+.notFoundPage_middle {
+  margin-top: 280px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.notFoundPage_middle img {
+  width: 500px;
+  height: 250px;
+}
+
+.gotonewsfeed button {
+  background-color: #0866FF;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  width: 210px;
+}
+
+.gotonewsfeed p {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.goback {
+  color: #0A6AD2;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 640;
+}
+
+
+.goback:hover {
+  text-decoration:  underline black;
+}
+

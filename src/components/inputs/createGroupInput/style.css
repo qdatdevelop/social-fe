@@ -1,0 +1,87 @@
+.reg_grid_privacy {
+  display: grid;
+  height: 35px;
+  width: 100%;
+}
+
+.reg_grid_privacy select {
+  width: 300px;
+  font-size: 16px;
+  color: var(--color-primary);
+  background: var(--bg-primary);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search_area_invite_friends {
+  left: 50px;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 6px;
+  background: var(--bg-primary);
+  box-shadow: 0 12px 12px var(--shadow-1), inset 0 0 0 0 var(--shadow-inset);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transition: all 0.2s;
+  -webkit-font-smoothing: antialiased;
+  z-index: 1;
+  min-height: 40px;
+  padding: 8px 16px 10px 6px;
+
+  width: 300px;
+
+}
+
+
+.remove-invite i {
+  position: absolute;
+
+  transform: scale(0.6);
+}
+
+
+.container_invite_friends {
+  height: 400px;
+  width: 284px;
+  background-color: var(--bg-secondary);
+  display: flex;
+  flex-direction: column;
+}
+
+.container_choose_friends {
+  height: 340px;
+  width: 494px;
+  background-color: var(--bg-primary);
+  display: flex;
+  flex-direction: column;
+}
+
+.head_invite_friends {
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #A9ABAE;
+ 
+}
+
+.head_choose_friends {
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.check_choose {
+  margin-left: auto; 
+}
+
+.bottom_invite_friends{
+  overflow-y: scroll;
+}
+
+.bottom_choose_friends{
+  overflow-y: scroll;
+}
+

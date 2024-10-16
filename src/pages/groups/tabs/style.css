@@ -1,0 +1,185 @@
+.pagegroupe_about_card {
+    background: var(--bg-primary);
+    border-radius: 10px;
+    box-shadow: 0 1px 2px var(--shadow-1);
+    padding: 10px 15px;
+    margin-top: 5px;
+    display: flex;
+    margin-bottom: 20px;
+    width: 1200px;
+}
+
+.about_card_group {
+    background: var(--bg-primary);
+    border-radius: 10px;
+    box-shadow: 0 1px 2px var(--shadow-1);
+    padding: 10px 15px;
+    margin-top: 5px;
+    display: flex;
+    margin-bottom: 20px;
+    width: 1200px;
+}
+
+.about_left_wrap h1 {
+    padding: 10px;
+}
+
+
+
+/*----Tabs----*/
+/*----About----*/
+
+.about_left_wrap {
+    border-right: 1px solid var(--bg-third);
+
+    /* Bên trái sẽ mở rộng để lấp đầy không gian trống */
+
+}
+
+.about_right_wrap {
+    flex: 1;
+    /* Bên phải sẽ mở rộng để lấp đầy không gian trống */
+    padding: 10px;
+}
+
+.default {
+    background: var(--bg-primary);
+    color: var(--color-secondary);
+}
+
+.active_about {
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px 10px 10px 10px;
+    color: var(--color-secondary);
+    display: flex;
+    cursor: pointer;
+    border-radius: 10px;
+    background: #EBF5FF;
+    color: var(--blue-color);
+}
+
+.mmenu_item_about {
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px 10px 10px 10px;
+    color: var(--color-secondary);
+    display: flex;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+
+.top_section {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.bottom_section {
+    background-color: #e0e0e0;
+    padding: 10px;
+}
+
+
+
+
+
+.menu_friend {
+    position: relative;
+    display: flex;
+}
+
+
+.menu_friend a {
+    height: 36px;
+    width: 100px;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: var(--blue-color) !important;
+}
+
+.menu_photo {
+    position: relative;
+    display: flex;
+}
+
+
+.menu_photo a {
+    height: 36px;
+    width: 150px;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: var(--blue-color) !important;
+}
+
+
+
+
+.header_photo {
+    margin-top: 5px;
+    position: relative;
+    display: flex;
+}
+
+.header_photo h1 {
+    margin-right: 490px;
+}
+
+
+
+
+
+.p10_dots_friend {
+    background: var(--bg-third);
+    position: relative;
+    border-radius: 5px;
+    display: grid;
+    place-items: center;
+    padding: 8px 14px;
+}
+
+.p10_dots_friend svg {
+    width: 14px;
+    height: 14px;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+
+
+.content_members {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+
+.private_discussion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    color: #65676B;
+    font-size: 14px;
+    font-weight: 600;
+    flex-direction: column;
+}
+
+
+
+

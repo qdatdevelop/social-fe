@@ -1,0 +1,52 @@
+.PhotoPopup {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  display: flex;
+  background-color: white;
+  z-index: 999999;
+}
+
+.photoDetail {
+  justify-content: center;
+  display: flex;
+  width: 1290px;
+  background-color: black;
+  z-index: 999999;
+}
+
+.photoDetailCover {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 1290px;
+  background-color: black;
+  z-index: 999999;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.photoDetail img {
+  max-height: 846px;
+  max-width: 1180px;
+}
+
+.photoDetailCover img {
+  height: 600px;
+  max-width: 1290px;
+}
+
+.exit_photoDetail {
+  display: flex;
+  z-index: 9999999;
+  top:8px;
+  position: fixed;
+  display: flex;
+  left: 28px;
+}

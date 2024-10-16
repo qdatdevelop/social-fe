@@ -1,0 +1,1283 @@
+.friends_requests_icon {
+  background-image: url(../../../public/icons/icons11.png);
+  background-position: 0px -117px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  -webkit-filter: invert(10%);
+}
+
+.friends_suggestions_icon {
+  background-image: url(../../../public/icons/icons11.png);
+  background-position: 0px -75px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  -webkit-filter: invert(10%);
+  display: inline-block;
+}
+
+.all_friends_icon {
+  background-image: url(../../../public/icons/icons11.png);
+  background-position: 0px -96px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  -webkit-filter: invert(10%);
+  display: inline-block;
+}
+
+.birthdays_icon {
+  background-image: url(../../../public/icons/icons11.png);
+  background-position: 0px -138px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  -webkit-filter: invert(10%);
+  display: inline-block;
+}
+
+.m_post_icon {
+  background-image: url(../../../public/icons/icons12.png);
+  background-position: 0px -132px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.m_story_icon {
+  background-image: url(../../../public/icons/icons13.png);
+  background-position: 0px -387px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.m_room_icon {
+  background-image: url(../../../public/icons/icons14.png);
+  background-position: 0px -542px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.m_page_icon {
+  background-image: url(../../../public/icons/icons14.png);
+  background-position: 0px -521px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.m_ad_icon {
+  background-image: url(../../../public/icons/icons14.png);
+  background-position: 0px -1004px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.m_group_icon {
+  background-image: url(../../../public/icons/icons14.png);
+  background-position: 0px -479px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.m_event_icon {
+  background-image: url(../../../public/icons/icons14.png);
+  background-position: 0px -647px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.m_post_mar {
+  background-image: url(../../../public/icons/icons13.png);
+  background-position: 0px -366px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.m_post_job {
+  background-image: url(../../../public/icons/icons14.png);
+  background-position: 0px -626px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.report_filled_icon {
+  background-image: url(../../../public/icons/icons15.png);
+  background-position: 0px -25px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.settings_filled_icon {
+  background-image: url(../../../public/icons/icons16.png);
+  background-position: -21px -228px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.help_filled_icon {
+  background-image: url(../../../public/icons/icons17.png);
+  background-position: 0px -487px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.dark_filled_icon {
+  background-image: url(../../../public/icons/icons17.png);
+  background-position: 0px -340px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.logout_filled_icon {
+  background-image: url(../../../public/icons/icons15.png);
+  background-position: 0px -46px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.right_icon {
+  background-image: url(../../../public/icons/icons18.png);
+  background-position: -83px -13px;
+  background-size: auto;
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  filter: invert(50%);
+}
+
+.privacy_checkup_icon {
+  background-image: url(../../../public/icons/icons15.png);
+  background-position: 0px -67px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.privacy_shortcuts_icon {
+  background-image: url(../../../public/icons/icons19.png);
+  background-position: 0px -495px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.activity_log_icon {
+  background-image: url(../../../public/icons/icons20.png);
+  background-position: -25px -250px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.news_icon {
+  background-image: url(../../../public/icons/icons21.png);
+  background-position: 0px -239px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.language_icon {
+  background-image: url(../../../public/icons/icons22.png);
+  background-position: 0px -658px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.arrow_back_icon {
+  background-image: url(../../../public/icons/icons18.png);
+  background-position: 0px -46px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.help_center_icon {
+  background-image: url(../../../public/icons/icons17.png);
+  background-position: 0px -487px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.email_icon {
+  background-image: url(../../../public/icons/icons22.png);
+  background-position: 0px -532px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.info_filled_icon {
+  background-image: url(../../../public/icons/icons23.png);
+  background-position: 0px -355px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.keyboard_icon {
+  background-image: url(../../../public/icons/icons24.png);
+  background-position: 0px -242px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.amm_s_ic {
+  background-image: url(../../../public/icons/icons12.png);
+  background-position: -34px -174px;
+  background-size: auto;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  -webkit-filter: invert(40%);
+}
+
+.ad_choices_icon {
+  background-image: url(../../../public/icons/icons6.png);
+  background-position: 0 -126px;
+  background-size: auto;
+  width: 12px;
+  height: 12px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  transform: translateY(1px);
+  -webkit-filter: invert(40%);
+}
+
+.pin_icon {
+  background-image: url("../../../public/icons/icons1.png");
+  background-position: 0px -378px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.save_icon {
+  background-image: url("../../../public/icons/icons1.png");
+  background-position: 0px -63px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.embed_icon {
+  background-image: url("../../../public/icons/icons1.png");
+  background-position: 0px -126px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.copy_icon {
+  background-image: url("../../../public/icons/icons2.png");
+  background-position: 0px -568px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.edit_icon {
+  background-image: url("../../../public/icons/icons2.png");
+  background-position: 0px -610px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  -webkit-filter: invert(40%);
+}
+
+.turnOffNotifications_icon {
+  background-image: url("../../../public/icons/icons3.png");
+  background-position: 0px -138px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.delete_icon {
+  background-image: url("../../../public/icons/icons1.png");
+  background-position: 0px -399px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.date_icon {
+  background-image: url("../../../public/icons/icons4.png");
+  background-position: 0px -67px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.refresh_icon {
+  background-image: url("../../../public/icons/refresh.png");
+  background-position: 0px 0px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.archive_icon {
+  background-image: url("../../../public/icons/icons1.png");
+  background-position: 0px -84px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.trash_icon {
+  background-image: url("../../../public/icons/icons2.png");
+  background-position: 0px -799px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.like_icon {
+  background-image: url("../../../public/icons/icons5.png");
+  background-position: 0 -243px;
+  background-size: auto;
+  width: 18px;
+  height: 18px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  filter: invert(40%);
+}
+
+.comment_post_icon {
+  background-image: url("../../../public/icons/icons5.png");
+  background-position: 0 -205px;
+  background-size: auto;
+  width: 18px;
+  height: 18px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  filter: invert(40%);
+}
+
+.share_icon {
+  background-image: url("../../../public/icons/icons5.png");
+  background-position: 0 -262px;
+  background-size: auto;
+  width: 18px;
+  height: 18px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  filter: invert(40%);
+}
+
+.emoji_icon {
+  background-image: url("../../../public/icons/icons5.png");
+  background-position: 0px -434px;
+  background-size: auto;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  filter: invert(40%);
+}
+
+.camera_icon {
+  background-image: url("../../../public/icons/icons5.png");
+  background-position: 0px -366px;
+  background-size: auto;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  filter: invert(40%);
+}
+
+.gif_icon {
+  background-image: url("../../../public/icons/icons5.png");
+  background-position: 0px -451px;
+  background-size: auto;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  filter: invert(40%);
+}
+
+.sticker_icon {
+  background-image: url("../../../public/icons/icons5.png");
+  background-position: 0px -468px;
+  background-size: auto;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  filter: invert(40%);
+}
+
+.exit_icon {
+  background-image: url("../../../public/icons/icons6.png");
+  background-position: -126px -71px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  filter: invert(40%);
+}
+
+.exit_icon_photo {
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yG/r/AD0di0UmvO6.png);
+  background-position: 0px -442px;
+  background-size: 26px 928px;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  filter: invert(100%);
+}
+
+.edit_icon {
+  background-image: url("../../../public/icons/icons18.png");
+  background-position: -34px -109px;
+  background-size: auto;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.arrowDown_icon {
+  background-image: url("../../../public/icons/icons6.png");
+  background-position: -117px -130px;
+  background-size: auto;
+  width: 12px;
+  height: 12px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.emoji_icon_large {
+  height: 24px;
+  width: 24px;
+  background-image: url("../../../public/icons/icons7.png");
+  background-position: 0px -207px;
+  background-size: auto;
+  background-repeat: no-repeat;
+  display: inline-block;
+  filter: invert(40%);
+  cursor: pointer;
+}
+
+.tag_icon {
+  height: 24px;
+  width: 24px;
+  background-image: url("../../../public/icons/icons7.png");
+  background-position: 0px -257px;
+  background-size: auto;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.maps_icon {
+  height: 24px;
+  width: 24px;
+  background-image: url("../../../public/icons/icons8.png");
+  background-position: 0px -225px;
+  background-size: auto;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.microphone_icon {
+  height: 24px;
+  width: 24px;
+  background-image: url("../../../public/icons/icons9.png");
+  background-position: 0px -100px;
+  background-size: auto;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.addPhoto_icon {
+  background-image: url("../../../public/icons/icons7.png");
+  background-position: -25px -292px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.phone_icon {
+  background-image: url("../../../public/icons/icons7.png");
+  background-position: -25px -271px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  filter: invert(20%);
+}
+
+.camera_filled_icon {
+  background-image: url("../../../public/icons/icons25.png");
+  background-position: 0px -444px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.photo_icon {
+  background-image: url(../../../public/icons/icons35.png);
+  background-position: 0px -63px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  filter: invert(10%);
+}
+
+.upload_icon {
+  background-image: url(../../../public/icons/icons35.png);
+  background-position: 0px -126px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  filter: invert(10%);
+}
+
+.lifeEvent_icon {
+  background-image: url(../../../public/icons/icons34.png);
+  background-position: -25px -250px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.plus_icon {
+  background-image: url(../../../public/icons/icons22.png);
+  background-position: 0px -1341px;
+  background-size: auto;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.frame_icon {
+  background-image: url(../../../public/icons/icons31.png);
+  background-position: 0px -130px;
+  background-size: auto;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.minus_icon {
+  background-image: url(../../../public/icons/icons33.png);
+  background-position: 0px -50px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.plus_icon {
+  background-image: url(../../../public/icons/icons32.png);
+  background-position: 0px -25px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.crop_icon {
+  background-image: url(../../../public/icons/icons31.png);
+  background-position: 0px -113px;
+  background-size: auto;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.temp_icon {
+  background-image: url(../../../public/icons/icons31.png);
+  background-position: 0px -96px;
+  background-size: auto;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.unfriend_outlined_icon {
+  background-image: url(../../../public/icons/icons30.png);
+  background-position: 0px -105px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.turnOnNotification_icon {
+  background-image: url(../../../public/icons/icons29.png);
+  background-position: 0px -324px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.download_icon {
+  background-image: url(../../../public/icons/icons28.png);
+  background-position: 0px -42px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.fullscreen_icon {
+  background-image: url(../../../public/icons/icons28.png);
+  background-position: 0px -210px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.rounded_plus_icon {
+  background-image: url(../../../public/icons/icons27.png);
+  background-position: 0px 0px;
+  background-size: auto;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  -webkit-filter: invert(39%) sepia(57%) saturate(200%) saturate(200%) saturate(200%) saturate(200%) saturate(200%) saturate(147.75%) hue-rotate(202deg) brightness(97%) contrast(96%);
+}
+
+.equalize_icon {
+  background-image: url(../../../public/icons/icons26.png);
+  background-position: 0px -63px;
+  background-size: auto;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.manage_icon {
+  background-image: url(../../../public/icons/icons26.png);
+  background-position: 0px -165px;
+  background-size: auto;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.list_icon {
+  background-image: url(../../../public/icons/icons26.png);
+  background-position: 0px -131px;
+  background-size: auto;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.grid_icon {
+  background-image: url(../../../public/icons/icons26.png);
+  background-position: 0px -80px;
+  background-size: auto;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  filter: invert(30%);
+}
+
+.info_icon {
+  background-image: url(../../../public/icons/icons36.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-position: 0 -60px;
+}
+
+.adChoices_icon {
+  background-image: url(../../../public/icons/icons37.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-position: 0 -60px;
+}
+
+.error_icon {
+  background-image: url(../../../public/icons/icons10.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 21px;
+  width: 21px;
+}
+
+.compact_icon {
+  background-image: url(../../../public/icons/icons38.png);
+  background-position: 0px -130px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.public_icon {
+  background-image: url(../../../public/icons/publicpack.png);
+  background-position: 0px -109px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.friends_home_icon {
+  background-image: url(../../../public/icons/icons40.png);
+  background-position: 0px -423px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.newfeed_icon {
+  background-image: url(../../../public/icons/icons21.png);
+  background-position: 0px -240px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.yourgroups_icon {
+  background-image: url(../../../public/icons/icons23.png);
+  background-position: 3px -412px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+
+.discoverr_icon {
+  background-image: url(../../../public/icons/icons19.png);
+  background-position: 0px -391px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.plus_icon_white {
+  background-image: url(../../../public/icons/icons12.png);
+  background-position: -125px -131px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.pencil_icon {
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yf/r/w7E_IOdBJzx.png);
+  background-position: 0px -706px;
+  background-size: 26px 828px;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+
+.group_icon {
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yV/r/cmX6BhjVAWO.png);
+  background-position: -132px -110px;
+  background-size: 190px 186px;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.user_icon {
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yE/r/G5gRD2TmGUK.png);
+  background-position: 0px -350px;
+  background-size: 38px 452px;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+
+.picture_icon {
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yC/r/-4f6DY76yFU.png);
+  background-position: 0px -558px;
+  background-size: 62px 580px;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+
+.up_load_icon {
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yV/r/Qc9BRM5w0X9.png);
+  background-position: 0px -22px;
+  background-size: 22px 44px;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.birth_icon {
+  height: 36px;
+  width: 36px;
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yE/r/G5gRD2TmGUK.png);
+  background-position: 0px 0px;
+  background-size: 38px 452px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.all_search_icon {
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yy/r/wT-r1MOpOsx.png);
+  background-position: 0px -314px;
+  background-size: 34px 896px;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+
+
+.all_search_icon {
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yy/r/wT-r1MOpOsx.png);
+  background-position: 0px -314px;
+  background-size: 34px 896px;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.invitejoinGroup_icon {
+  height: 28px;
+  width: 28px;
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/8vo53WwtI-n.png);
+  background-position: 0px -1260px;
+  background-size: 30px 2430px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.addFriend_icon {
+  height: 28px;
+  width: 28px;
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/8vo53WwtI-n.png);
+  background-position: 0px -1170px;
+  background-size: 30px 2430px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+
+.acceptRequest_icon {
+  height: 28px;
+  width: 28px;
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/8vo53WwtI-n.png);
+  background-position: 0px -1170px;
+  background-size: 30px 2430px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.arrow_down_icon {
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/ys/r/ONOj5F77tYI.png);
+  background-position: -34px -147px;
+  background-size: 189px 177px;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+
+
+.comment_icon {
+  height: 28px;
+  width: 28px;
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/8vo53WwtI-n.png);
+  background-position: 0px -990px;
+  background-size: 30px 2430px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+
+.unfollow_icon {
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yJ/r/0w5sMJw4zNf.png);
+  background-position: 0px -693px;
+  background-size: 21px 761px;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.follow_icon {
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yt/r/qgKYkSonvcU.png);
+  background-position: 0px -109px;
+  background-size: 25px 488px;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+
+.leave_icon {
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yt/r/qgKYkSonvcU.png);
+  background-position: 0px -193px;
+  background-size: 25px 488px;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.square_icon {
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yH/r/UPnhzwsztSs.png);
+  background-position: -66px -132px;
+  background-size: 190px 186px;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.choose_square_icon {
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yH/r/UPnhzwsztSs.png);
+  background-position: -22px -88px;
+  background-size: 190px 186px;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+
+.private_icon {
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/3omCHP52otR.png);
+  background-position: 0 -846px;
+  background-size: 26px 860px;
+  width: 12px;
+  height: 12px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.overview_icon {
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/aizeks_4Oai.png);
+  background-position: 0px -224px;
+  background-size: 26px 344px;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.overview_active_icon {
+  width: 20px;
+  height: 20px;
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/aizeks_4Oai.png);
+  background-size: 26px 344px;
+  background-position: 0px -202px;
+}
+
+
+.lock_icon {
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/y1/r/J4OcVxN_-p7.png);
+  background-position: 0px -586px;
+  background-size: 26px 636px;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.open_eye_icon {
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yN/r/70dMnOCl_8s.png);
+  background-position: 0px -438px;
+  background-size: 26px 570px;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.clock_eye_icon {
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yN/r/70dMnOCl_8s.png);
+  background-position: 0px -420px;
+  background-size: 26px 570px;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+
+
+.report_group_icon {
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/DLIcpBQ-Nk_.png);
+  background-position: 0px -22px;
+  background-size: 22px 132px;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.check {
+  background-image: url(../../../public/icons/icons18.png);
+  background-position: -109px -85px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.memberReported {
+  width: 20px;
+  height: 20px;
+  mask-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/xSXdYauO3a1.png);
+  mask-size: 20px 20px;
+  mask-position: 0px 0px;
+  /* background-color: "#0567D2"; */
+}
+
+
+.private_group_icon {
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/6-XHCe06iYc.png);
+  background-position: 0px -652px;
+  background-size: 26px 1008px;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.visible_icon {
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/y0/r/353oD97ZnJ2.png);
+  background-position: 0px -200px;
+  background-size: 34px 534px;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+
+.hidden_icon {
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/hm1GKch0Xy-.png);
+  background-position: 0px -486px;
+  background-size: 26px 900px;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.mess_icon {
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/UFpgeZjg8hB.png);
+  background-position: 0px -48px;
+  background-size: 26px 1532px;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+
+
+.choose_mess {
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yf/r/QG6amnX3-8_.png);
+  background-position: 0px -182px;
+  background-size: 248px 386px;
+  width: 244px;
+  height: 180px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+
+.group_mess {
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yV/r/U8Hde75PWMt.png);
+  background-position: 0px 0px;
+  background-size: 22px 352px;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.saved_icon {
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yE/r/PQGc4QcBoWm.png);
+  background-position: 0px -70px;
+  background-size: 26px 158px;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+
+.report {
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yt/r/ud_Xh0Ikjb6.png);
+  background-position: 0px -334px;
+  background-size: 26px 466px;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+
+
+.public_group_icon {
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yi/r/o7KQ-WIT1Az.png);
+  background-position: 0px -374px;
+  background-size: 26px 474px;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
