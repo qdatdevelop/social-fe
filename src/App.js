@@ -53,6 +53,7 @@ import PhotoPopup from "./components/photoPopup";
 import Chat_screen from "./components/chat";
 import Saved from "./pages/saved";
 import VerifiRegister from "./pages/verify/VerifiRegister";
+import GroupCall from "./pages/goupcall";
 function App() {
   const [visible, setVisible] = useState(false);
   const [visiblePost, setVisiblePost] = useState(null);
@@ -104,7 +105,7 @@ function App() {
   };
 
   useEffect(() => {
-    const newSocket = io("https://linkbridge-socket.onrender.com", {
+    const newSocket = io(process.env.REACT_APP_SOCKET_URL, {
       transports: ["websocket"],
     });
     setSocket(newSocket);
@@ -273,7 +274,6 @@ function App() {
     dataFriend: [],
     error: "",
   });
-  console.log(dataFriend);
   const [
     { loading: groupsLoading, error: groupsError, dataGroups },
     dispatchGroups,
@@ -351,7 +351,6 @@ function App() {
   const getGroups = async () => {
     dispatchGroups({ type: "GROUPS_REQUEST" });
     const data = await getGroupsJoined(user?.token);
-    console.log(data);
     if (data.status === "ok") {
       dispatchGroups({ type: "GROUPS_SUCCESS", payload: data.data });
     } else {
@@ -365,7 +364,6 @@ function App() {
   const getDiscoverGroups = async () => {
     dispatchDiscoverGroups({ type: "DISCOVER_GROUPS_REQUEST" });
     const data = await getdiscoverGroups(user?.token);
-    console.log(data);
     if (data.status === "ok") {
       dispatchDiscoverGroups({
         type: "DISCOVER_GROUPS_SUCCESS",
@@ -1342,6 +1340,10 @@ function App() {
         <Route
           path="/verifi/:emailRegister"
           element={<VerifiRegister socket={socket} />}
+        />
+         <Route
+          path="/groupcall"
+          element={<GroupCall socket={socket} />}
         />
         <Route
           path="*"
