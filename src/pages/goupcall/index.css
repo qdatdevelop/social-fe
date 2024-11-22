@@ -28,6 +28,7 @@
 
 .call-content {
     text-align: center;
+    text-shadow: 1px 1px #000;
 }
 
 .call-content h1 {
@@ -106,4 +107,23 @@
 
 .hidden {
     display: none;
+}
+
+.camera-overlay {
+    position: absolute;
+    display: block;
+    object-fit: cover;
+    bottom: 10px;
+    right: 10px;
+    z-index: 10;
+}
+
+.camera-overlay video {
+    display: none;
+    width: 300px;
+    height: 180px;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    border-radius: 20px;
 }

@@ -192,7 +192,8 @@ export default function Chat_screen({ setShowChat, showChat, socket, onlineUsers
     }
 
     const handleOpenCallUser = () => {
-        window.open("http://localhost:3000/groupcall", "popupWindow", "width=1200,height=700");
+        socket.emit("call", { caller: user.id, receiver: showChat._id });
+        window.open(`http://localhost:3000/groupcall?callee=${showChat._id}`, "popupWindow", "width=1200,height=700");
     };
     return (
         <>
