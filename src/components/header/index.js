@@ -60,7 +60,7 @@ export default function Header({ page, getAllPosts, notifications, getNotificati
                         setShowSearchMenu(true);
                     }}>
                     <Search color={color} />
-                    <input type="text" placeholder="Search Facebook" className="hide_input" />
+                    <input type="text" placeholder="Search Zunio" className="hide_input" />
                 </div>
             </div>
             {showSearchMenu && <SearchMenu color={color} setShowSearchMenu={setShowSearchMenu} token={user.token} />}

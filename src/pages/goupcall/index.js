@@ -16,7 +16,7 @@ export default function GroupCall({ socket }) {
     const [isCameraOn, setIsCameraOn] = useState(false);
     const [disableButton, setDisableButton] = useState(true); // người dùng nghe máy thì false bật lên
     const [called, setCalled] = useState(false); // mặc định người nhận chưa nghe máy là false
-    const audio = new Audio("/sound/FacebookCallingSound.mp3");
+    const audio = new Audio("/sound/ZuinoCallingSound.mp3");
     const { user } = useSelector((state) => ({ ...state }));
     const [userCall, setUserCall] = useState({});
     const [tokenCall, setTokenCall] = useState();

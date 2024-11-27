@@ -356,8 +356,8 @@ export default function Chat_screen({ setShowChat, showChat, socket, onlineUsers
                             fontWeight: "400",
                             color: "#65676B",
                         }}>
-                        <p>Facebook </p>
-                        <p>You're friends on Facebook</p>
+                        <p>Zuino </p>
+                        <p>You're friends on Zuino</p>
                     </div>
 
                     {!loadingMess && custom ? (

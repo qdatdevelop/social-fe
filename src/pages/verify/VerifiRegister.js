@@ -52,7 +52,7 @@ export default function VerifiRegister(socket) {
     return (
         <div className="reset">
             <div className="reset_header">
-                <img src="../../../icons/facebook.svg" alt="" />
+                <img src="../../../icons/Zuino.svg" alt="" />
                 {user ? (
                     <div className="right_reset">
                         <Link to="/profile">
